@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.titulo{
+    background-color: burlywood;
+
+    display: flex;
+    flex-direction: row;  /* direcao dos itens na horizontal*/
+    flex-wrap: wrap;
+    align-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.petshop{
+    background-color: red;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+
+.petshop h1{
+  /* width: 100%; */
+  /* font-size: 300%; */
+  font-size: 60px;
+  background-color: pink;
+  padding-left: 10%;
+  margin-top: 1%;
+}
+
+.petshop h2{
+    background-color: aquamarine;
+    font-size: 30px;
+    padding-left: 10%;
+}
+
+.imagem{
+   
+    background-image: url("salsichinha.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: right;
+    overflow: hidden;
+
+    width: 38vw;
+    height: 40vh;
+    margin-left: 10vw;
+    background-color: brown;
+}
+
+/* .body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+} */
+
+.artigo{
+    background-color: blueviolet;
+}
+
+.texto{
+    margin: auto;
+    padding: 5%;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+}
+
