@@ -1,78 +1,161 @@
 *{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
+    
 }
 
+p{
+    line-height: 30px;
+}
 
-.titulo{
+ul{
+    line-height: 30px;
+    
+}
+/* h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      padding: 0;
+      margin: 0;
+    } */
+
+
+
+#cabecalho{
     background-color: burlywood;
+    height: 100vh; /*!!!! os argumentos em funcao de vh e vw forcam as dimensoes totais !!!!*/
+    padding: 0 24px;
+    position: relative;
 
-    display: flex;
-    flex-direction: row;  /* direcao dos itens na horizontal*/
+    /* METODO 2 DE ALINHAMENTO VERTICAL DO TITULO*/
+    /* display: flex;
     flex-wrap: wrap;
-    align-content: center;
-
-    width: 100vw;
-    height: 100vh;
-
+    align-content: center; */
 }
 
 .petshop{
-    background-color: red;
-    width: 50vw;
+    /* METODO 1 DE ALINHAMENTO VERTICAL DO TITULO*/
+    position: absolute; /* posicionado de acordo com os limites do container do header*/
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: brown; */
+    padding: 0;
 
-    display: flex;
-    flex-direction: column;
-    /* align-content: center; */
-    justify-content: center;
 }
 
-
-.petshop h1{
-  /* width: 100%; */
-  /* font-size: 300%; */
-  font-size: 60px;
-  background-color: pink;
-  padding-left: 10%;
-  margin-top: 1%;
-}
-
-.petshop h2{
-    background-color: aquamarine;
+.petshop .subtitulo{
     font-size: 30px;
-    padding-left: 10%;
+    color: rgb(106, 9, 147);
+    text-shadow: #000 0.5px 0.5px 0.5px;
+
+}
+
+.petshop .titulo{
+    font-size: 60px;
+    color: rgb(106, 9, 147);
+    text-shadow: black 1px 1px 1px;
+
 }
 
 .imagem{
-   
     background-image: url("salsichinha.png");
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: right;
-    overflow: hidden;
-
-    width: 38vw;
+   
+    width: 35vw;
     height: 40vh;
-    margin-left: 10vw;
-    background-color: brown;
+    /* background-color: goldenrod; */
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+ 
+} 
+
+.main{
+    background-color: burlywood;
+    position: relative;
+    /* width: 100vw;
+    height: 100vh; */
+
+    padding-bottom: 100px;
 }
 
-/* .body{
-    background-color: burlywood;
-    display: flex;
-    justify-content: center;
-} */
 
 .artigo{
-    background-color: blueviolet;
-}
-
-.texto{
-    margin: auto;
-    padding: 5%;
     background-color: white;
-    width: 30%;
-    text-align: center;
+    margin: auto; /* centraliza automaticamente*/
+    padding: 2%;
+    width: 60vw;
+    padding-bottom: 50px;
 }
 
+
+.artigo .imagem2{
+    background-image: url("hotdog2.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: top;
+
+    width: 50vw;
+    height: 49vh;
+    /* background-color: goldenrod; */
+    margin: auto;
+    margin-bottom: 8px;
+
+}
+
+.artigo h2{
+    font-size: 30px;
+}
+
+.artigo p{
+    /* background-color: aqua; */
+    margin: 10px;
+}
+
+.artigo ul{
+    margin: 10px 30px;
+}
+
+
+.video{
+    width: 600px;
+    height: 315px;
+
+    display: block;
+    margin: auto;
+
+    /* position: relative; */
+    margin-top: 25px; 
+    margin-bottom: 20px;
+
+}
+
+
+.rodape{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 40px;
+
+    color: white
+}
+
+.rodape h4{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3%;
+}
+
+.rodape a{
+    color: rgb(65, 172, 229);
+}

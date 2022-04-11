@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+
     <link href="style.css" rel="stylesheet"/>
     <title>PetShop Salsichinha</title>
 
@@ -16,51 +21,59 @@
 <body>
 <!-- position absolute eh relativo ao ultimo position relative. Se n tiver nenhum,
     vai se posicionar relativo ao body -->
-<div class="titulo">
+<header id="cabecalho"> 
         <div class="petshop">
-            <h2>Bem vindo!</h2>
-            <h1>PetShop Salsichinha</h1>
+            <h2 class="subtitulo">Bem vindo!</h2>
+            <h1 class="titulo">PetShop Salsichinha</h1>
         </div>
         <div class="imagem"></div>
-    </div>
+</header>
 
+<main class="main">
     <div class="artigo">
-        <p class="texto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Pellentesque id enim condimentum, lacinia ligula molestie, pellentesque 
-            ligula. Sed imperdiet nibh sit amet orci molestie, non pellentesque turpis 
-            molestie. Donec iaculis odio nec nibh accumsan, a feugiat dolor placerat. 
-            Pellentesque vitae elit sed lorem fermentum accumsan. Nullam rhoncus blandit 
-            sapien, sollicitudin consequat sem tristique eu. Quisque varius, dui a semper 
-            aliquet, ex ipsum sodales enim, a finibus dolor justo id nisi. Nunc sollicitudin 
-            bibendum purus, ut ullamcorper tortor lobortis non. Vestibulum a ex enim. Phasellus 
-            eu lacinia justo, sed mattis lectus. Sed auctor mauris tempor, rutrum dui eu, venenatis dolor. 
-            Pellentesque auctor egestas mi, ut dignissim lectus porttitor ut. Phasellus mattis interdum 
-            fermentum. Vestibulum sagittis, tellus rutrum tristique placerat, arcu est laoreet justo, vel 
-            egestas ipsum neque quis felis. Nulla convallis metus dolor, maximus suscipit metus aliquet sed.
-             Nam condimentum est sit amet venenatis tempus.
+        <h2> Um serviço pro seu au-migo favorito </h2>
+        <p>Aqui seu salsicha será bem cuidado!</p>
 
-            Fusce vel velit at turpis congue vulputate. Vestibulum facilisis justo orci, id vestibulum erat 
-            fringilla sit amet. Pellentesque commodo ullamcorper sodales. Sed faucibus rhoncus mi, et maximus
-             tortor posuere eget. Vestibulum neque diam, venenatis eu venenatis vitae, bibendum nec diam. Nullam
-              id lectus massa. Vestibulum a pharetra nisi. Nullam et laoreet nibh. Curabitur ultricies nibh non dictum
-               hendrerit. Morbi lacinia ullamcorper velit, sit amet tempus quam porta at. Duis lorem nisl, tincidunt 
-               nec euismod in, posuere vitae libero. Ut facilisis ante sit amet sapien rhoncus, quis lacinia quam sagittis. 
-               Phasellus id odio porttitor leo volutpat imperdiet vel at dolor. Morbi vulputate ligula ut commodo rhoncus. 
-               Aenean molestie, risus vitae vestibulum lacinia, leo augue pellentesque libero, vitae condimentum odio ipsum 
-               et nulla.
-            
-            Praesent at suscipit libero. Pellentesque et convallis elit. Phasellus in nisl at enim lobortis elementum et 
-            nec leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed risus 
-            tellus, commodo sed lorem sit amet, dapibus consectetur elit. Etiam rhoncus tortor accumsan blandit commodo. I
-            n sit amet hendrerit lectus, at tristique dolor. Fusce urna quam, maximus et mattis ut, pulvinar et tellus. Donec 
-            non nisl nec lorem dictum accumsan. Cras accumsan, tellus sit amet blandit egestas, risus velit congue massa, et r
-            utrum justo est nec erat. Sed laoreet sollicitudin odio a faucibus. Phasellus finibus finibus purus a pulvinar. Aen
-            ean interdum, nulla vitae aliquam blandit, dui odio viverra ligula, a sodales tortor quam vitae mi. Vivamus felis ma
-            ssa, venenatis id molestie et, rutrum sit amet quam. Fusce dignissim efficitur tellus, non congue turpis. Integer inter
-            dum elementum dapibus. 
+        <div class="imagem2"></div>
+        <h3>Caracteristicas do porque amar um salsicha:</h3>
+        <ul>
+            <li><i>Fofos</i></li>
+            <li><i>Expressivos</i></li>
+            <li><i>Rebaixados</i></li>
+        </ul>
+
+        <p class="texto">
+            Os Dachshunds são cachorros enérgicos e adoram gastar sua energia procurado novos alvos para caçar 
+            ou se divertir com o seu tutor. Portanto, para que ele não acabe tendo sobrepeso por ficar muito 
+            tempo parado, é importante realizar atividades físicas com o pet.</p>
+        <p>
+            Desde passeios ou até mesmo, se for possível, um espaço para que ele possa correr livremente 
+            sem riscos. Além disso, eles são animais que adoram a presença de pessoas e não costumam se dar muito 
+            bem com a solidão.</p>
+
+        <h2>Veja um vídeo dos nossos parceiros</h2>
+
+        <iframe class="video" src="https://www.youtube.com/embed/IKMPWnRRV04" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>
+            Quando a gente pensa em adoção animal, normalmente esse pensamento vem acompanhado de um sentimento de ajudar um animal, 
+            de tornar a sociedade melhor com menos um bicho na rua. Mas será que na realidade é assim? O que realmente se esconde 
+            por trás de uma adoção?
         </p>
+
+        <p>
+            Por que as pessoas adotam? Que sentimento é esse que faz uma pessoa retirar um animal da rua e levar para casa? Eu poderia passar 
+            horas aqui escrevendo sobre isso, pois são muitos sentimentos que se misturam, mas o mais forte é também o mais simples, amor!
+        </p>
+
     </div>
-  
+</main>
+
+<footer class="rodape"> 
+    <h4>Não compre, adote um cachorro no <a>Amigo não se compra</a></h4>
+</footer>
+
 </body>
 </html>
