@@ -13,16 +13,6 @@ ul{
     line-height: 30px;
     
 }
-/* h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      padding: 0;
-      margin: 0;
-    } */
-
 
 
 #cabecalho{
@@ -83,7 +73,6 @@ ul{
     position: relative;
     /* width: 100vw;
     height: 100vh; */
-
     padding-bottom: 100px;
 }
 
@@ -105,7 +94,6 @@ ul{
 
     width: 50vw;
     height: 49vh;
-    /* background-color: goldenrod; */
     margin: auto;
     margin-bottom: 8px;
 
@@ -116,7 +104,6 @@ ul{
 }
 
 .artigo p{
-    /* background-color: aqua; */
     margin: 10px;
 }
 
@@ -128,11 +115,8 @@ ul{
 .video{
     width: 600px;
     height: 315px;
-
     display: block;
     margin: auto;
-
-    /* position: relative; */
     margin-top: 25px; 
     margin-bottom: 20px;
 
